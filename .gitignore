@@ -47,3 +47,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# renv library and staging (we ignore actual installed packages)
+renv/library/
+renv/staging/
